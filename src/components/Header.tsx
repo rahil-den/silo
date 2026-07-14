@@ -8,10 +8,22 @@ export default function Header() {
       </Link>
       <nav className="flex items-center gap-6 md:gap-8">
         <Link
+          href="/docs"
+          className="text-sm font-medium text-zinc-600 hover:text-zinc-900 transition-colors dark:text-zinc-400 dark:hover:text-zinc-200"
+        >
+          Docs
+        </Link>
+        <Link
           href="/components"
           className="text-sm font-medium text-zinc-600 hover:text-zinc-900 transition-colors dark:text-zinc-400 dark:hover:text-zinc-200"
         >
           Components
+        </Link>
+        <Link
+          href="/templates"
+          className="text-sm font-medium text-zinc-600 hover:text-zinc-900 transition-colors dark:text-zinc-400 dark:hover:text-zinc-200"
+        >
+          Templates
         </Link>
         <a
           href="https://github.com/rahil-den/silo"
